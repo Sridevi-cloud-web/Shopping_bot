@@ -150,7 +150,7 @@
           ]
         }
       ],
-      "fuzzy_match": true
+      "fuzzy_match": false
     },
     {
       "entity": "enquiry",
@@ -765,6 +765,10 @@
             ],
             "response_type": "text",
             "selection_policy": "sequential"
+          },
+          {
+            "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQpkiPOonhwMZ_7A3p7nf-8YJa8QiHCU8cPOg&usqp=CAU",
+            "response_type": "image"
           }
         ]
       },
@@ -823,7 +827,7 @@
         "generic": [
           {
             "title": "Menu",
-            "source": "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/4/j/o/m41327-15239489375ad59d896b40e.jpg",
+            "source": "https://s3.amazonaws.com/online.pubhtml5.com/lkfq/rqwi/files/large/3.jpg",
             "response_type": "image"
           }
         ]
@@ -847,11 +851,15 @@
             ],
             "response_type": "text",
             "selection_policy": "sequential"
+          },
+          {
+            "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQgVHZaU_4xsd8tD1iYLv-EKcEYc0DejTfA1Q&usqp=CAU",
+            "response_type": "image"
           }
         ]
       },
       "parent": "node_1_1549876201326",
-      "conditions": "@Items &&  @Items:(mens wear)",
+      "conditions": "@Items &&    @Items:(mens wear)",
       "dialog_node": "node_2_1602081440682",
       "previous_sibling": "node_5_1549877945542"
     },
@@ -997,9 +1005,13 @@
       "output": {
         "generic": [
           {
+            "source": "https://i.pinimg.com/originals/41/fc/64/41fc6431a943b9ced8c23078c3e262c9.jpg",
+            "response_type": "image"
+          },
+          {
             "values": [
               {
-                "text": "Clothes available for kids aged 4-10"
+                "text": "Clothes for children aged 4-10 yrs available."
               }
             ],
             "response_type": "text",
@@ -1017,12 +1029,17 @@
       "output": {
         "generic": [
           {
+            "source": "https://i.pinimg.com/originals/f2/50/7a/f2507a8f60c7f90ee6b1af727c7ab759.jpg",
+            "response_type": "image"
+          },
+          {
             "values": [
               {
                 "text": "Sizes available : M,L,XL,XLL"
               }
             ],
-            "response_type": "text"
+            "response_type": "text",
+            "selection_policy": "sequential"
           }
         ]
       },
@@ -1045,6 +1062,10 @@
             ],
             "response_type": "text",
             "selection_policy": "sequential"
+          },
+          {
+            "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQn71idoZHlOmDjlLmaJPKCrLZx46sM8GyGjA&usqp=CAU",
+            "response_type": "image"
           }
         ]
       },
@@ -1058,12 +1079,17 @@
       "output": {
         "generic": [
           {
+            "source": "https://www.aarveecreation.in/img/S4U-Womaniya-Vol-14-Kurti-With-Plazzo-Set-Wholesale-Catalogue-Online-Photos/S4U-Womaniya-Vol-14-Kurti-With-Plazzo-Set-Wholesale-Catalogue-Online-Photos-1.jpg",
+            "response_type": "image"
+          },
+          {
             "values": [
               {
                 "text": "50% off on all women accessories."
               }
             ],
-            "response_type": "text"
+            "response_type": "text",
+            "selection_policy": "sequential"
           }
         ]
       },
